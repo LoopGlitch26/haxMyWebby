@@ -1,0 +1,151 @@
+
+body {
+  background: black;
+  background-image: url("images/watchdogs_map.jpg");
+  opacity: 100%;
+  margin: 0;
+}
+
+.mrrobot_card{
+  opacity:1;
+  background-image: url('images/mr-robot.jpg');
+  background-size: contain;
+  border: 4px solid darkred;
+  border-radius: 5px;
+  position: absolute;
+  top: 12%;
+  right: 2%;
+  left: 67%;
+  bottom: 50%;
+  padding-top: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+/*checkthisout*/
+.checkthisout{
+  opacity:1;
+  background-size: contain;
+  border: 4px solid darkred;
+  border-radius: 5px;
+  position: absolute;
+  top: 53%;
+  right: 2%;
+  left: 67%;
+  bottom: 5%;
+  padding-top: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#checkthisout{
+  font-family: 'hackedregular';
+  font-size: 30px;
+  text-shadow: 2px 2px 3px #000000;
+  position: absolute;
+  color: red;
+}
+#mr_heading{
+  font-family: 'hackedregular';
+  font-size: 30px;
+  text-shadow: 2px 2px 3px #000000;
+  top: 3%;
+  right: 2%;
+  left: 67%;
+  position: absolute;
+  color: red;
+  padding-top: 0.5%;
+  padding-left: 1.25%;
+}
+.heading{
+  font-family: 'hackedregular';
+  font-size: 18px;
+  text-shadow: 2px 2px 3px #000000;
+  position: absolute;
+  color: red;
+  padding-top: 1%;
+  padding-left: 2.5%;
+}
+#sub-heading{
+  font-family: 'hackedregular';
+  font-size: 25px;
+  text-shadow: 2px 2px 3px #000000;
+  position: relative;
+  color: red;
+}
+
+a{
+color: coral;
+}
+.codebox{
+  color: forestgreen;
+}
+h5{
+  font-family: monospace;
+  color: #c81912;
+  font-size: 25px;
+
+}
+img{
+  border: 3px solid #c81912;
+  border-radius: 7px;
+}
+/*blog contents*/
+.content{
+  font-family: 'firacode-medium';
+  color: ghostwhite;
+  font-size: 18px;
+  background-image: url('images/black-80.png');
+  opacity:1;
+  border: 4px solid darkred;
+  border-radius: 7px;
+  position: absolute;
+  top: 12%;
+  left: 2%;
+  right: 35%;
+  bottom: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  overflow: auto;
+  max-height: 100vh;
+}
+
+.image-st{
+  position: absolute;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/*Font: MR.ROBOT*/
+@font-face {
+  font-family: 'mrrobotregular';
+  src: url('fonts/mr_robot-webfont.woff2') format('woff2'),
+       url('fonts/mr_robot-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Font: WATCHDOGS*/
+@font-face {
+  font-family: 'hackedregular';
+  src: url('fonts/hacked-webfont.woff2') format('woff2'),
+       url('fonts/hacked-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Font: FIRACODE*/
+@font-face {
+  font-family: 'firacode-medium';
+  src: url('fonts/firacode-medium-webfont.woff2') format('woff2'),
+       url('fonts/firacode-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
